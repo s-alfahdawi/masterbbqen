@@ -1,0 +1,32 @@
+{
+  "statics": [
+    {
+
+      "id" : "1",
+      "title": "contacts",
+      "property-1": "+964 750 507 22 44",
+      "property-2": "+964 772 707 22 44",
+      "property-3": "+964 750 507 22 66",
+      "property-4": "info@masterbbq.com"
+
+
+    },
+
+    {
+
+      "id" : "2",
+      "title": "location",
+      "property-1": "شارع 100 متر - سايدين تويوتا ساز-MRF 5 - مقابل حديقة ساكورا"
+
+    },
+
+    {
+
+      "id" : "3",
+      "title": "hours",
+      "property-1": "من الساعة 12:00 ظهرا وحتى 12:00 مساء"
+
+    }
+
+  ]
+}

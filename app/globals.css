@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --foreground-color: #FFFFFF;
+    --background-color: #1A1A1A;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-color: #FFFFFF;
+        --background-color: #1A1A1A;
+    }
+}
+
+body {
+    color: var(--foreground-color);
+    background-color: var(--background-color);
+    font-family: 'tajawal', serif
+
+}
+
+* {
+    transition: ease-in-out 0.2s;
+
+}
+
+
+.homemenu-container {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer {
+    width: 100%;
+
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+.video-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    border-radius: 20px !important;
+    place-items: center;
+    background-position: center
+}
+
+
+.btn-primary {
+    background-color: rgb(127 29 29) !important;
+    outline: rgb(127 29 29) !important;
+    color: white !important;
+    border: rgb(127 29 29);
+
+}
+
+.bg-primary {
+    background-color: #FE8403;
+    transition: background-color ease-in-out 0.2s;
+}
+
+.bg-primary:hover {
+    background-color: #e17604;
+    /*transition: all ease-in-out 0.2s;*/
+
+}
+
+.hero-btn-container {
+    align-items: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*#870103*/
+.spannn {
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #ee8f30;
+
+}
+
+
+.card-img {
+    width: 300px !important;
+    height: 300px !important;
+
+}
+
+@media only screen
+
+and (-webkit-min-device-pixel-ratio: 1)
+and (min-device-width: 768px)
+and (max-device-width: 1007px) {
+    .card-img {
+        width: 200px !important;
+        height: 200px !important;
+
+    }
+
+}
+
+.box {
+    width: 100%;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+hr {
+    /*border: .5px solid #000;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.hr-line {
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.description {
+    width: 200px; /* Adjust this value according to your design */
+    overflow: hidden; /* Optional: hide overflow if the description is too long */
+    text-overflow: ellipsis; /* Optional: add ellipsis for overflow text */
+    direction: rtl;
+
+}
+
+.title-rtl {
+    direction: rtl;
+}
+
+.specials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.image-container {
+
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for small screens (e.g., reduce image width) */
+    .image-container img {
+        width: 350px !important; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+
+/*----------------*/
+
+.ribbon-container {
+
+    display: inline-block;
+}
+
+/*-----*/
+.swiper-container-main {
+    width: 90%;
+    margin: 8% auto 5%;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .swiper-container-main {
+        width: 90%;
+        margin: 8% auto 5%;
+
+    }
+
+    .swiper-slide-content {
+        width: 230px !important;
+    }
+
+    .swiper-slide img {
+
+        border-radius: 2rem;
+        object-fit: cover;
+        max-width: fit-content;
+    }
+
+    .slide-with-gradient::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 230px;
+        height: 20rem;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 100%);
+        z-index: 1;
+        border-radius: 0.5rem;
+    }
+
+    .swiper-slide-content img {
+        width: 230px !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+    .swiper-slide {
+        border-radius: 10px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .swiper-slide {
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+
+    .swiper-slide img {
+        width: 10rem !important;
+        height: 10rem !important;
+        object-fit: cover;
+    }
+
+    .swiper-slide-content {
+        position: relative;
+        text-align: center;
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+
+    .swiper-container-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 400px) and (max-width: 300px) {
+    .swiper-slide {
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+
+    .swiper-slide img {
+        width: 10rem !important;
+        height: 10rem !important;
+        object-fit: cover;
+    }
+
+    .swiper-slide-content {
+        position: relative;
+        text-align: center;
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+
+    .swiper-container-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+}
+
+.carousel-text {
+
+    /*   margin: 0;*/
+    /*   padding: 10px;*/
+    /*   border-radius: 5px;*/
+    /*   text-align: center;*/
+    /*   font-size: 40px !important;*/
+    padding-top: -100px !important;
+    margin-top: -100px !important;
+    z-index: 50;
+
+}
+
+.carousel-item {
+    cursor: pointer
+}
+
+@media (max-width: 500px) {
+    .swiper_container {
+        height: 10rem;
+
+    }
+
+    .swiper-slide {
+        width: 9rem !important;
+        height: 10rem !important;
+    }
+
+    .swiper-slide img {
+        width: 9rem !important;
+        height: 10rem !important;
+        object-fit: cover;
+    }
+
+    .swiper-container-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .swiper-slide-content h1 {
+
+        position: absolute;
+        margin: 0;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 20px !important;
+        z-index: 2;
+
+    }
+
+    .swiper-slide-content {
+        position: relative;
+        text-align: center;
+        width: 9rem !important;
+        height: 10rem !important;
+    }
+}
+
+.swiper-slide img {
+
+    border-radius: 2rem;
+    object-fit: cover;
+    max-width: fit-content;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+    display: none;
+}
+
+
+.swiper-slide-content {
+    position: relative;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+}
+
+.swiper-slide-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.swiper-slide-content h1 {
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    z-index: 2;
+
+
+}
+
+
+.slide-with-gradient {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-with-gradient::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 20rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 100%);
+    z-index: 1;
+    border-radius: 0.5rem;
+}
+
+.language{
+    cursor: pointer;
+}
+
+.bg-base-100 {
+
+    background-color: #191e21 !important;
+}
+
+.menu-button {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+
+}
+
+.carousel-image {
+    width: 350px;
+    height: 350px;
+}
+
+@media (max-width: 580px) {
+    .carousel-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .md-modal {
+        top: -15%;
+    }
+}
+
+.card-title-start {
+    text-align: right;
+}
+
+
+
+@media (min-width: 220px) {
+    /* Apply text size 2xl for small screens and above */
+    .sm-font-5xl {
+        font-size: 3.5rem !important; /* Adjust this value according to your design */
+    }
+}

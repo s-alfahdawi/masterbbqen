@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <chats>
+      <list>
+        <chat>
+          <internalId value="eefe11ad-e42b-4949-8c74-689e10dab55d" />
+          <llm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </llm>
+          <messages>
+            <list>
+              <message>
+                <speaker value="HUMAN" />
+                <text value="fix and reformat this code so it works properly" />
+              </message>
+              <message>
+                <speaker value="ASSISTANT" />
+                <text value="Here's the refactored and reformatted code:&#10;&#10;```jsx&#10;&quot;use client&quot;;&#10;&#10;import Image from &quot;next/image&quot;;&#10;import Link from &quot;next/link&quot;;&#10;&#10;export default function Navbar() {&#10;    return (&#10;        &lt;nav className=&quot;navbar bg-base-100 flex px-5 items-center justify-between&quot;&gt;&#10;            &lt;div className=&quot;flex-none&quot;&gt;&#10;                &lt;ul className=&quot;menu menu-horizontal px-1&quot;&gt;&#10;                    &lt;li&gt;&#10;                        &lt;Link href=&quot;/&quot;&gt;اللغة&lt;/Link&gt;&#10;                    &lt;/li&gt;&#10;                    &lt;li&gt;&#10;                        &lt;Link&#10;                            href=&quot;https://wa.me/9647505072244&quot;&#10;                            target=&quot;_blank&quot;&#10;                            rel=&quot;noopener noreferrer&quot;&#10;                        &gt;&#10;                            احجز طاولة&#10;                        &lt;/Link&gt;&#10;                    &lt;/li&gt;&#10;                    &lt;li&gt;&#10;                        &lt;Link href=&quot;/menu&quot;&gt;المنيو&lt;/Link&gt;&#10;                    &lt;/li&gt;&#10;                    &lt;li&gt;&#10;                        &lt;Link href=&quot;/&quot;&gt;الرئيسية&lt;/Link&gt;&#10;                    &lt;/li&gt;&#10;                &lt;/ul&gt;&#10;            &lt;/div&gt;&#10;            &lt;div className=&quot;flex items-center&quot;&gt;&#10;                &lt;Image&#10;                    src=&quot;/images/photo2.png&quot;&#10;                    alt=&quot;hero image&quot;&#10;                    width={70}&#10;                    height={70}&#10;                /&gt;&#10;            &lt;/div&gt;&#10;        &lt;/nav&gt;&#10;    );&#10;}&#10;```&#10;&#10;Here are the changes made:&#10;&#10;1. Uncommented the code by removing the `//` comments.&#10;2. Wrapped the `&lt;main&gt;` element with a `&lt;nav&gt;` element, as it's a navigation bar.&#10;3. Removed the empty `className" />
+              </message>
+              <message>
+                <speaker value="HUMAN" />
+                <text value="fix and reformat this json file so it works properly @.../app/_api/menu.json " />
+              </message>
+              <message>
+                <speaker value="ASSISTANT" />
+                <text value="```json&#10;[&#10;  {&#10;    &quot;id&quot;: 1,&#10;    &quot;name&quot;: &quot;Chicken Shawarma&quot;,&#10;    &quot;description&quot;: &quot;Marinated chicken wrapped in pita bread with garlic sauce, pickles, and french fries.&quot;,&#10;    &quot;price&quot;: 5.99,&#10;    &quot;image&quot;: &quot;/images" />
+              </message>
+            </list>
+          </messages>
+          <updatedAt value="2024-04-20T11:05:46.289955" />
+        </chat>
+        <chat>
+          <accountId value="VXNlcjoxNTkwMTc=" />
+          <internalId value="cb86f172-f5e4-4df0-ad2e-8eebfd1369fe" />
+          <llm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </llm>
+        </chat>
+        <chat>
+          <accountId value="VXNlcjoxNTkwMTc=" />
+          <internalId value="c827b3f3-c97f-414f-ad10-4e63f1715ad7" />
+        </chat>
+      </list>
+    </chats>
+    <defaultLlm>
+      <llm>
+        <model value="anthropic/claude-3-sonnet-20240229" />
+        <provider value="Anthropic" />
+        <title value="Claude 3 Sonnet" />
+      </llm>
+    </defaultLlm>
+  </component>
+</project>

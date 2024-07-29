@@ -1,0 +1,64 @@
+{
+  "meat": [
+    {
+      "id": "1",
+      "name": "ستیکی ئێسکی تی T-bone",
+      "price": "33,000 IQD",
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00538 copy.webp",
+      "description": "375 گرام"
+    },
+    {
+      "id": "1",
+      "name": "ستیکی ريب آي",
+      "price": "33,000 IQD",
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00542 copy.webp",
+      "description": "375 گرام"
+    },
+    {
+      "id": "1",
+      "name": "ستیکی دالاس",
+      "price": "33,000 IQD",
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00545 copy.webp",
+      "description": "375 گرام"
+    },
+    {
+      "id": "1",
+      "name": "ستیکی ستریپلۆین",
+      "price": "22,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00548 copy.webp",
+      "description": "280 گرام"
+    },
+    {
+      "id": "1",
+      "name": "ستیکی نیویۆرک",
+      "price": "22,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00550 copy.webp",
+      "description": "280 گرام"
+    },
+    {
+      "id": "1",
+      "name": "ستیکی فیلێه",
+      "price": "22,000 IQD",
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00552 copy.webp",
+      "description": "300 گرام"
+    }, {
+      "id": "1",
+      "name": "ضلوع غنم",
+      "price": "24,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00558 copy.webp",
+      "description": "600 گرام - ٦ پارچە"
+    }, {
+      "id": "1",
+      "name": "ستیکی تۆماهۆک",
+      "price": "95,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00566 copy.webp",
+      "description": "1 کیلۆگرام"
+    }, {
+      "id": "1",
+      "name": "بەرگر",
+      "price": "5,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00700 copy.webp",
+      "description": "140 گرام"
+    }
+  ]
+}
