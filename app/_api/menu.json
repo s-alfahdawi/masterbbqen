@@ -237,7 +237,7 @@
         },
         {
           "id": "11",
-          "name": "Vegetable Samosa",
+          "name": "Vegetables Samosa",
           "price": "3,000 IQD",
           "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/samboosah-all.webp",
           "description": ""
@@ -272,7 +272,7 @@
         },
         {
           "id": "17",
-          "name": "French fries with Brexit beef",
+          "name": "French fries with brisket beef",
           "price": "12,000 IQD",
           "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/113.webp",
           "description": ""
@@ -314,14 +314,14 @@
         },
         {
           "id": "22",
-          "name": "kebbeh 3 pieces Fried",
+          "name": "Grilled kebbeh 3 pieces",
           "price": "9,000 IQD",
           "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/kuba.webp",
           "description": ""
         },
         {
           "id": "23",
-          "name": "Fried kebbeh 4 pieces",
+          "name": "Grilled kebbeh 4 pieces",
           "price": "5,000 IQD",
           "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/kuba-fried.webp",
           "description": ""
@@ -339,35 +339,35 @@
           "name": "Rib eye steak",
           "price": "39,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/6.webp",
-          "description": "375 grams American Emancipated Beef, Roasted Sweet Potatoes, Steak Sauce"
+          "description": "375 grams American aged Beef, Roasted Sweet Potatoes, Steak Sauce"
         },
         {
           "id": "2",
           "name": "Dallas steak",
           "price": "39,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/2.webp",
-          "description": "375 grams American Emancipated Beef, Roasted Sweet Potatoes, Steak Sauce"
+          "description": "375 grams American aged Beef, Roasted Sweet Potatoes, Steak Sauce"
         },
         {
           "id": "3",
           "name": "Striploin steak with eggs",
           "price": "34,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/1.webp",
-          "description": "280 grams American emancipated Beef, Eggs, fries, steak sauce"
+          "description": "280 grams American aged Beef, Eggs, fries, steak sauce"
         },
         {
           "id": "4",
           "name": "T-bone steak",
           "price": "46,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/3.webp",
-          "description": "375375 grams American Emancipated beef, roasted sweet potatoes, steak sauce, corn"
+          "description": "375375 grams American aged beef, roasted sweet potatoes, steak sauce, corn"
         },
         {
           "id": "5",
           "name": "New York steak",
           "price": "32,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/4.webp",
-          "description": "280 grams American emancipated beef, roasted sweet potatoes, steak sauce, corn"
+          "description": "280 grams American aged beef, roasted sweet potatoes, steak sauce, corn"
         },
         {
           "id": "6",
@@ -381,7 +381,7 @@
           "name": "Striploin steak",
           "price": "32,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/str.webp",
-          "description": "280 grams American emancipated beef, roasted sweet potatoes, steak sauce, corn"
+          "description": "280 grams American aged beef, roasted sweet potatoes, steak sauce, corn"
         },
         {
           "id": "8",
@@ -395,14 +395,14 @@
           "name": "tomahawk steak",
           "price": "130,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/tomahokk.webp",
-          "description": "1kg Emancipated American beef, sweet roasted potatoes, bone marrow steak sauce, butter, garlic, rosemary"
+          "description": "1kg of aged American beef, roasted sweet potatoes, bone marrow sauce, butter, garlic, rosemary"
         },
         {
           "id": "10",
           "name": "BBQ Chicken",
           "price": "18,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/chickensteakbbq.webp",
-          "description": "450 grams Grilled Chicken With BBQ Sauce, Garlic and Lemon Potatoes, Rosemary"
+          "description": "450 grams Grilled Chicken With BBQ Sauce, Potatoes with garlic and lemon, Rosemary"
         },
         {
           "id": "11",
@@ -423,7 +423,7 @@
           "name": "Lamb ribs steak",
           "price": "27,000 IQD",
           "photo": "https://masterbbqerbil.net/images/smoked/lambsteaks.webp",
-          "description": "Grilled lamb feathers, roasted sweet potatoes, steak sauce"
+          "description": "Grilled lamb ribs, roasted sweet potatoes, steak sauce"
         }
       ]
     },
@@ -446,7 +446,7 @@
           "name": "One kg of smoked ribs",
           "price": "110,000 IQD",
           "photo": "https://masterbbqerbil.net/images/ribs/category1.webp",
-          "description": "1One kilogram of smoked American beef ribs, fries, bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, and pickles."
+          "description": "One kilogram of smoked American beef ribs, fries, bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, and pickles."
         }
       ]
     },
@@ -459,24 +459,24 @@
       "dishes": [
         {
           "id": "1",
-          "name": "250 grams cheek of smoked beef",
+          "name": "250 grams of smoked beef cheeks",
           "price": "28,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "Smoked beef cheeks 250 grams Fries, Bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, pickles."
+          "description": "250 grams of Smoked beef cheeks, Fries, Bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, pickles"
         },
         {
           "id": "2",
-          "name": "500 grams cheek of smoked beef",
+          "name": "500 grams of smoked beef cheeks",
           "price": "42,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "Smoked beef cheeks 500 grams Fries, Bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, pickles."
+          "description": "500 grams of Smoked beef cheeks, Fries, Bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, pickles"
         },
         {
           "id": "3",
-          "name": "1 kg smoked beef cheek",
+          "name": "1 kg of smoked beef cheeks",
           "price": "75,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "Smoked beef cheeks 1 kg, Fries, Bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, pickles."
+          "description": "1Kg of Smoked beef cheeks, Fries, Bread, macaroni and cheese, honey, cherry sauce, coleslaw sauce, pickles"
         }
       ]
     },
@@ -556,7 +556,7 @@
         },
         {
           "id": "3",
-          "name": "Chicken Meal With Vegetable",
+          "name": "Chicken Meal With Vegetables",
           "price": "14,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/16.webp",
           "description": ""
@@ -570,7 +570,7 @@
         },
         {
           "id": "5",
-          "name": "Smoked lamb Bananas",
+          "name": "Smoked lamb shanks",
           "price": "24,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/category3.webp",
           "description": ""
@@ -896,14 +896,14 @@
         {
           "id": "3",
           "name": "Kinder crepe",
-          "price": "7,000 IQD",
+          "price": "6,000 IQD",
           "photo": "https://masterbbqerbil.net/images/sweets/master.webp",
           "description": ""
         },
         {
           "id": "4",
           "name": "Master crepe",
-          "price": "6,000 IQD",
+          "price": "7,000 IQD",
           "photo": "https://masterbbqerbil.net/images/sweets/14.webp",
           "description": ""
         },
@@ -1161,7 +1161,7 @@
         },
         {
           "id": "3",
-          "name": "مۆهیتۆ",
+          "name": "mojito",
           "drinks": [
             {
               "id": "1",
@@ -1193,7 +1193,7 @@
             },
             {
               "id": "5",
-              "name": "Raspberry mojito",
+              "name": "red berry mojito",
               "price": "7,000 IQD",
               "photo": "https://masterbbqerbil.net/images/drinks/cold/113.webp",
               "description": ""
@@ -1202,7 +1202,7 @@
         },
         {
           "id": "4",
-          "name": "سمۆدی",
+          "name": "smoothie",
           "drinks": [
             {
               "id": "1",
@@ -1213,7 +1213,7 @@
             },
             {
               "id": "2",
-              "name": "blueberrie smoothie",
+              "name": "Blueberry smoothie",
               "price": "6,000 IQD",
               "photo": "https://masterbbqerbil.net/images/drinks/cold/116.webp",
               "description": ""
@@ -1604,7 +1604,7 @@
         },
         {
           "id": "15",
-          "name": "Chocolate macchiato",
+          "name": "macchiato",
           "price": "3,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/18.webp",
           "description": ""
@@ -1699,7 +1699,7 @@
             },
             {
               "id": "6",
-              "name": "Two apples Al-Fakker",
+              "name": "Two apples AL Fakher",
               "price": "11,000 IQD"
             },
             {
@@ -1744,12 +1744,12 @@
             },
             {
               "id": "15",
-              "name": "Sweet fruit",
+              "name": "Sweet fruits",
               "price": "11,000 IQD"
             },
             {
               "id": "16",
-              "name": "Fruit",
+              "name": "Fruits",
               "price": "11,000 IQD"
             },
             {
@@ -1791,7 +1791,7 @@
             },
             {
               "id": "6",
-              "name": "Two apples Al-Fakker",
+              "name": "Two apples AL Fakher",
               "price": "13,000 IQD"
             },
             {
@@ -1836,12 +1836,12 @@
             },
             {
               "id": "15",
-              "name": "Sweet fruit",
+              "name": "Sweet fruits",
               "price": "13,000 IQD"
             },
             {
               "id": "16",
-              "name": "Fruit",
+              "name": "Fruits",
               "price": "13,000 IQD"
             },
             {
@@ -1883,7 +1883,7 @@
             },
             {
               "id": "6",
-              "name": "Two apples Al-Fakker",
+              "name": "Two apples AL Fakher",
               "price": "16,000 IQD"
             },
             {
@@ -1928,12 +1928,12 @@
             },
             {
               "id": "15",
-              "name": "Sweet fruit",
+              "name": "Sweet fruits",
               "price": "16,000 IQD"
             },
             {
               "id": "16",
-              "name": "Fruit",
+              "name": "Fruits",
               "price": "16,000 IQD"
             },
             {
